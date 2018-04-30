@@ -20,8 +20,7 @@ setopt appendhistory sharehistory autocd
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
-autoload -Uz compinit promptinit
-compinit
+autoload -Uz promptinit
 
 promptinit
 prompt pure
