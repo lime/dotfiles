@@ -27,5 +27,4 @@ promptinit
 prompt pure
 
 source ~/.aliases
-source ~/.zdir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+source ~/.zdir/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
