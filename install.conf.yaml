@@ -6,6 +6,7 @@
 
 - link:
     ~/.aliases:
+    ~/.config:
     ~/.zdir:
     ~/.zshrc:
 
