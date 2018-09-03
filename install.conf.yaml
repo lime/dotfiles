@@ -6,7 +6,10 @@
 
 - link:
     ~/.aliases:
-    ~/.config:
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true
     ~/.zdir:
     ~/.zshrc:
 
