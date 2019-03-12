@@ -32,3 +32,8 @@ source ~/.zdir/plugins/zsh-history-substring-search/zsh-history-substring-search
 # Bind up & down arrows to substring search
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# Ruby
+if type rbenv &> /dev/null; then
+  eval "$(rbenv init -)"
+fi
