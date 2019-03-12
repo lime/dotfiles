@@ -1,3 +1,9 @@
 [alias]
+  co = checkout
   ds = diff --staged
   st = status --short
+  lg = log --all --decorate --oneline --graph
+
+[user]
+  name = Emil Sågfors
+  email = emil.sagfors@iki.fi
