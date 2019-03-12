@@ -37,3 +37,6 @@ bindkey '^[[B' history-substring-search-down
 if type rbenv &> /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+# Homebrew
+HOMEBREW_AUTO_UPDATE_SECS=604800
