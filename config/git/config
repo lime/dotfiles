@@ -3,6 +3,7 @@
   ds = diff --staged
   st = status --short
   lg = log --all --decorate --oneline --graph
+  git = "!git"
 
 [user]
   name = Emil Sågfors
