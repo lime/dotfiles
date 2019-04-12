@@ -1,4 +1,4 @@
-alias ll="ls -la"
+alias ll="ls -lA"
 alias lower="tr '[:upper:]' '[:lower:]'"
 alias upper="tr '[:lower:]' '[:upper:]'"
 alias uuid="uuidgen | lower"
