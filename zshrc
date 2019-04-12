@@ -33,6 +33,10 @@ source ~/.zdir/plugins/zsh-history-substring-search/zsh-history-substring-search
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # Ruby
 if type rbenv &> /dev/null; then
   eval "$(rbenv init -)"
