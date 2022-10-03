@@ -2,9 +2,19 @@
   co = checkout
   ds = diff --staged
   st = status --short
-  lg = log --all --decorate --oneline --graph
+  lg = log --decorate --oneline --graph --branches --tags --remotes
   git = "!git"
 
 [user]
   name = Emil Sågfors
   email = emil.sagfors@iki.fi
+
+[core]
+  pager = delta --diff-so-fancy
+
+[interactive]
+  diffFilter = delta --diff-so-fancy --color-only
+[pull]
+  rebase = true
+[init]
+  defaultBranch = main
