@@ -7,3 +7,6 @@
 [submodule "zdir/plugins/zsh-history-substring-search"]
 	path = zdir/plugins/zsh-history-substring-search
 	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "pure"]
+	path = zdir/pure
+	url = https://github.com/sindresorhus/pure.git

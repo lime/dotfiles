@@ -1,5 +1,0 @@
-prompt_lime_setup() {
-  
-}
-
-prompt_lime_setup "$@"

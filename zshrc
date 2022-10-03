@@ -1,5 +1,3 @@
-fpath=($HOME/.zdir/functions $fpath)
-
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _expand _complete _ignored
@@ -21,8 +19,8 @@ setopt autocd
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
+fpath+=($HOME/.zdir/pure)
 autoload -Uz promptinit
-
 promptinit
 prompt pure
 
