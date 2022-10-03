@@ -22,6 +22,9 @@ bindkey -e
 fpath+=($HOME/.zdir/pure)
 autoload -Uz promptinit
 promptinit
+
+zstyle :prompt:pure:user color yellow
+zstyle :prompt:pure:host color yellow
 prompt pure
 
 source ~/.aliases
@@ -38,7 +41,9 @@ export PATH=$PATH:$GOPATH/bin
 
 # Node
 export NVM_DIR="$HOME/.nvm"
-source /usr/local/opt/nvm/nvm.sh
+if [ -e $NVM_DIR ]; then
+  source $NVM_DIR/nvm.sh
+fi
 
 # Ruby
 if type rbenv &> /dev/null; then
