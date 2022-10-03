@@ -38,6 +38,10 @@ bindkey '^[[B' history-substring-search-down
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+# Node
+export NVM_DIR="$HOME/.nvm"
+source /usr/local/opt/nvm/nvm.sh
+
 # Ruby
 if type rbenv &> /dev/null; then
   eval "$(rbenv init -)"
