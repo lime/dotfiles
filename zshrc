@@ -55,3 +55,8 @@ fi
 
 # Homebrew
 HOMEBREW_AUTO_UPDATE_SECS=604800
+
+# Local
+if [ -f ~/.zshrc.local ]; then
+  source ~/.zshrc.local
+fi
