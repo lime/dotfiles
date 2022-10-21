@@ -11,6 +11,7 @@
 
 [core]
   pager = delta --diff-so-fancy
+  editor = vim
 
 [interactive]
   diffFilter = delta --diff-so-fancy --color-only
