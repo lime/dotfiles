@@ -46,6 +46,7 @@ export PATH=$PATH:$GOPATH/bin
 export NVM_DIR="$HOME/.nvm"
 if [ -e $NVM_DIR ]; then
   source $NVM_DIR/nvm.sh
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 fi
 
 # Ruby
