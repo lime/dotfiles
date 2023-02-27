@@ -15,7 +15,12 @@
 
 [interactive]
   diffFilter = delta --diff-so-fancy --color-only
+
+[fetch]
+  prune = true
+
 [pull]
   rebase = true
+
 [init]
   defaultBranch = main
