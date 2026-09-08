@@ -6,6 +6,11 @@ if (( $+commands[lsd] )); then
   alias ll="lsd -lA"
 fi
 
+if (( $+commands[bat] )); then
+  alias cat=bat
+  alias bl="bat --paging=always"
+fi
+
 alias lower="tr '[:upper:]' '[:lower:]'"
 alias upper="tr '[:lower:]' '[:upper:]'"
 alias uuid="uuidgen | lower"
