@@ -3,6 +3,7 @@
   ds = diff --staged
   st = status --short
   lg = log --decorate --oneline --graph --branches --tags --remotes
+  ignore = "!f() { echo \"$*\" | xargs -n1 echo >> .gitignore; }; f"
   git = "!git"
 
 [user]
