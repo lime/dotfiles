@@ -27,6 +27,9 @@ zstyle :prompt:pure:user color yellow
 zstyle :prompt:pure:host color yellow
 prompt pure
 
+export EDITOR=vim
+export VISUAL=vim
+
 source ~/.aliases
 source ~/.zdir/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zdir/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
