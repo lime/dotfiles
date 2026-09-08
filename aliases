@@ -1,4 +1,11 @@
 alias ll="ls -lA"
+if (( $+commands[eza] )); then
+  alias ll="eza -lA"
+fi
+if (( $+commands[lsd] )); then
+  alias ll="lsd -lA"
+fi
+
 alias lower="tr '[:upper:]' '[:lower:]'"
 alias upper="tr '[:lower:]' '[:upper:]'"
 alias uuid="uuidgen | lower"
