@@ -31,6 +31,11 @@ source ~/.aliases
 source ~/.zdir/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zdir/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
+# z / zoxide
+if (( $+commands[zoxide] )); then
+  eval "$(zoxide init zsh)"
+fi
+
 # Bind up & down arrows to substring search
 # Account for some platform differences
 bindkey "$terminfo[kcuu1]" history-substring-search-up
